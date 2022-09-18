@@ -1,0 +1,43 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  box-sizing: border-box;
+}
+
+body {
+  --main-color: #f05454;
+  --secondary-color: #30475e;
+  --white-color: #f5f5f5;
+  --black-color: #121212;
+  direction: rtl;
+  overflow-x: hidden;
+}
+
+/* 
+HERO SECTION */
+.container .blog-hero-section {
+  height: 85vh;
+  background-image: linear-gradient(
+      rgba(245, 245, 245, 0.5),
+      rgba(245, 245, 245, 1)
+    ),
+    url("/images/gallery/thank- you-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 50px 0;
+}
+.blog-hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blog-hero-section h1,
+.blog-hero-section h3 {
+  color: var(--black-color);
+}

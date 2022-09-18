@@ -1,0 +1,11 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "my first landing page",
+  "main": "app.js",
+  "scripts": {
+    "test": "Hello"
+  },
+  "author": "Adam oberlander",
+  "license": "ISC"
+}
